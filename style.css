@@ -1,0 +1,235 @@
+/*outline: 1px solid black; */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.schoolbell-regular {
+  font-family: "Schoolbell", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+section {
+  border-top: 1px solid black;
+}
+article {
+  border-top: 1px solid black;
+}
+.projects-list li {
+  border-top: 1px solid black;
+}
+h1,
+h2 {
+  margin: 0;
+  padding: 0.25rem;
+  font-family: schoolbell, cursive;
+}
+h3 {
+  margin: 0;
+  margin-left: 0.25rem;
+}
+body p {
+  margin-left: 0.25rem;
+}
+body a {
+  margin-left: 0.25rem;
+}
+nav p {
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 0.25rem;
+  margin: 0;
+  border: 0;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+nav img {
+  display: block;
+  width: 32px;
+  text-align: center;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav a {
+  padding: 0.5rem;
+  color: black;
+  text-decoration: none;
+}
+h2 {
+  text-align: center;
+}
+.top {
+  text-align: center;
+}
+.top h1 {
+  margin-bottom: 0;
+  padding: 0;
+  padding-top: 0.5rem;
+}
+.top p {
+  margin-top: 0;
+  color: gray;
+}
+.projects {
+  border-bottom: 0;
+  text-align: center;
+}
+.projects-list {
+  background-color: rgb(233, 233, 233);
+}
+.projects h2 {
+  margin: 0;
+}
+.projects ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.projects-list a {
+  color: black;
+  text-decoration: none;
+}
+.education li {
+  list-style: "- ";
+}
+.experience {
+  padding-bottom: 0.25rem;
+  background-color: rgb(233, 233, 233);
+}
+.experience a {
+  text-decoration: none;
+  color: rgb(44, 125, 199);
+}
+.education h2 {
+  border: 0;
+}
+.left {
+  text-align: left;
+  padding-left: 0.5rem;
+}
+figure {
+  padding: 0.5rem;
+  outline: 1px solid black;
+  border-radius: 1rem;
+}
+blockquote {
+  margin: 0;
+}
+blockquote p {
+  margin-top: 0;
+}
+figcaption {
+  color: rgb(177, 177, 177);
+}
+footer {
+  font-family: "Schoolbell", cursive;
+  text-align: center;
+}
+
+@media (min-width: 700px) {
+  nav {
+    display: flex;
+    flex-flow: row nowrap;
+    flex-direction: flex-end;
+    align-items: center;
+  }
+  nav img {
+    width: 3rem;
+  }
+  nav p {
+    font-size: 2rem;
+    margin-left: 0.5rem;
+    margin-right: auto;
+  }
+  nav li {
+    font-size: 1.5rem;
+  }
+  .top {
+    padding-bottom: 4rem;
+  }
+  .top h1 {
+    font-size: 3rem;
+  }
+  .body-content {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  h2 {
+    text-align: left;
+    padding-left: 1rem;
+  }
+  .projects {
+    text-align: left;
+    flex: 1 20%;
+  }
+  .projects-list {
+    background-color: white;
+    height: auto;
+  }
+  .projects-list li {
+    padding: 1rem;
+  }
+  .projects-list li:first-child {
+    border-top: 0;
+  }
+  .work-experience {
+    flex: 2 40%;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  .experience {
+    background-color: white;
+  }
+  .experience h3 {
+    padding-top: 1rem;
+    padding-left: 1rem;
+  }
+  .experience p {
+    padding-left: 1rem;
+  }
+  .experience a {
+    padding-left: 1rem;
+  }
+  article:last-child {
+    border-top: 1px solid black;
+  }
+  article {
+    border: 0;
+  }
+  .education {
+    flex: 2 39%;
+  }
+  .education p {
+    padding-left: 1rem;
+    margin-top: 0.5rem;
+  }
+  .reviews {
+    flex: 1;
+    flex-basis: 100%;
+  }
+  .left {
+    padding-top: 1.5rem;
+    padding-left: 2rem;
+  }
+  .reviews-list {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  footer p {
+    font-size: 1.25rem;
+  }
+}
